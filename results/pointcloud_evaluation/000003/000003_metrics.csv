@@ -1,0 +1,6 @@
+Class,SegPts,InsideGT,GTpts,Prec%,Rec%,F1%
+Car,630,493,669,78.3,73.7,75.9
+Truck,0,0,0,0.0,0.0,0.0
+Pedestrian,0,0,0,0.0,0.0,0.0
+Cyclist,0,0,0,0.0,0.0,0.0
+Tram,0,0,0,0.0,0.0,0.0
