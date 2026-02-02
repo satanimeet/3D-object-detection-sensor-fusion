@@ -778,7 +778,7 @@ def evaluate_pipeline(dataset_path, results_path, model_path, classes_to_evaluat
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="LiDAR-Camera fusion 3D object detection evaluation")
-    parser.add_argument("--dataset", type=str, default="G:/EM/Sem-7 Thesis/code/Data/training",
+    parser.add_argument("--dataset", type=str, default="G:/EM/Sem-4 Thesis/code/Data/training",
                         help="Path to KITTI-format training folder (image_2, velodyne, calib, label_2)")
     parser.add_argument("--results", type=str, default=None,
                         help="Output folder for results (default: results/kitti_mini_test when using kitti_mini, else results/iou_dbscan_evaluation)")
